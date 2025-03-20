@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the CSV file into a DataFrame
-data = pd.read_csv('Wayanad_Landslide_Samples_Feb7.csv') 
+data = pd.read_csv('filename.csv') 
 
 # Check if the '.geo' column exists and drop it if present
 if '.geo' in data.columns:
